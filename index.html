@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<link rel="stylesheet" href="styles.css">
+<body>
+  
+  <!-- <?php include 'game.php';?> -->
+
+  <h1>Juego del Ahorcado</h1>
+  <textarea name="cartoonTextArea" id="cartoonTextArea" cols="10" rows="5"></textarea>
+  <textarea name="wordsUsedTextArea" id="wordsUsedTextArea" cols="10" rows="5"></textarea><br>
+
+  <input type="text" name="chosenWordInput" id="chosenWordInput" size="40"> 
+
+  <nav id="pointers">
+    <label for="wonText">Ganadas:</label><input type="text" name="wonText" id="wonText"><br>
+    <label for="loseText">Perdidas:</label><input type="text" name="failText" id="failText">
+    <br>
+    
+    <script src="js.js"></script>
+
+    <input type="button" value="Clear" onclick="clearGame()">
+    
+  </nav>
+  
+ 
+</body>
+</html>
