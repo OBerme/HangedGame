@@ -1,2 +1,3 @@
-21/12/2021 19:17 he insertado todos los botones para poder jugar el juego
-hello world
+21/12/2021 19:17  I inserted all the buttons in the game
+27/12/2021 13:21  I finished the game!
+
